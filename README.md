@@ -5,7 +5,20 @@
 
 <!--
   ### About:
-  A website portfolio to show my my projects and contact information. 
+  Showcasing the understanding of Operating System Engineering
+  Using the [xv6 Open Source Operating System](https://github.com/mit-pdos/xv6-public).
+  
+  The following files were created: 
+    1. hello.c
+    2. head.c
+    3. try.c
+    4. find.c
+    
+   The following files were modified:
+    1. syscall.h
+    2. syscall.c
+    3. usys.S
+    4. sysproc.c
 -->
 
 ***
