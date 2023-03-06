@@ -4,7 +4,7 @@
 * **[Lochlann O Neill](https://github.com/lochlannoneill)**
 
 ### About:
-Showcasing the understanding of Operating System Engineering
+Showcasing the understanding of Operating System Engineering.  
 Using the [xv6 Open Source Operating System](https://github.com/mit-pdos/xv6-public).
 
 The following files were created: 
