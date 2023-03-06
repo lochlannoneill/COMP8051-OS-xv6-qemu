@@ -1,6 +1,5 @@
 <!--https://github.com/darsaveli/Readme-Markdown-Syntax-->
 
-# [www.lochlannoneill.com](https://www.lochlannoneill.com/)
 ### Collaborators:
 * **[Lochlann O Neill](https://github.com/lochlannoneill)**
 
