@@ -8,6 +8,8 @@
   A website portfolio to show my my projects and contact information. 
 -->
 
+***
+
 To showcase the functionality of this project, use the respective commands below.
 
 Ubuntu terminal commands:
