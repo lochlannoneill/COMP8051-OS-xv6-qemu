@@ -36,17 +36,17 @@ Ubuntu terminal commands:
   2. make qemu
 
 Qemu terminal commands:
-  1. hello
+  1. hello  
   ![terminal_hello](https://github.com/lochlannoneill/COMP8051-OS-xv6-qemu/blob/main/screenshots/terminal_hello.png?raw=true)
   
-  2. head README
+  2. head README  
   ![terminal_head](https://github.com/lochlannoneill/COMP8051-OS-xv6-qemu/blob/main/screenshots/terminal_hello.png?raw=true)
   
-  3. try
+  3. try  
   ![terminal_try](https://github.com/lochlannoneill/COMP8051-OS-xv6-qemu/blob/main/screenshots/terminal_try.png?raw=true)
   
-  4. find . b 
+  4. find . b  
   ![terminal_find](https://github.com/lochlannoneill/COMP8051-OS-xv6-qemu/blob/main/screenshots/terminal_find.png?raw=true)  
   
-  5. ps
+  5. ps  
   ![terminal_ps](https://github.com/lochlannoneill/COMP8051-OS-xv6-qemu/blob/main/screenshots/terminal_ps.png?raw=true)  
