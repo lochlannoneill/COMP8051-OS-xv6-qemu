@@ -49,5 +49,6 @@ The following files were modified:
   4. find . b  
   ![terminal_find](https://github.com/lochlannoneill/COMP8051-OS-xv6-qemu/blob/main/screenshots/terminal_find.png?raw=true)  
   
-  5. ps  
+  5. ps (with Ubuntu terminal formatting)  
   ![terminal_ps](https://github.com/lochlannoneill/COMP8051-OS-xv6-qemu/blob/main/screenshots/terminal_ps.png?raw=true)  
+  ![terminal_ps_ubuntu](https://github.com/lochlannoneill/COMP8051-OS-xv6-qemu/blob/main/screenshots/terminal_ps_ubuntu.png?raw=true)  
