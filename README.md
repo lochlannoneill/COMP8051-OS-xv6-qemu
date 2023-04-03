@@ -40,7 +40,7 @@ Qemu terminal commands:
   ![terminal_hello](https://github.com/lochlannoneill/COMP8051-OS-xv6-qemu/blob/main/screenshots/terminal_hello.png?raw=true)
   
   2. head README  
-  ![terminal_head](https://github.com/lochlannoneill/COMP8051-OS-xv6-qemu/blob/main/screenshots/terminal_hello.png?raw=true)
+  ![terminal_head](https://github.com/lochlannoneill/COMP8051-OS-xv6-qemu/blob/main/screenshots/terminal_head.png?raw=true)
   
   3. try  
   ![terminal_try](https://github.com/lochlannoneill/COMP8051-OS-xv6-qemu/blob/main/screenshots/terminal_try.png?raw=true)
