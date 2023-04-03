@@ -33,7 +33,8 @@ The following files were modified:
 
 Ubuntu terminal commands:
   1. make
-  2. make qemu
+  2. make qemu  
+  ![terminal_make_qemu](https://github.com/lochlannoneill/COMP8051-OS-xv6-qemu/blob/main/screenshots/terminal_make_qemu.png?raw=true)
 
 Qemu terminal commands:
   1. hello  
