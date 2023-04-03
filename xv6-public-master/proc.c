@@ -5,6 +5,7 @@
 #include "mmu.h"
 #include "x86.h"
 #include "proc.h"
+#include "uproc.h"
 #include "spinlock.h"
 
 struct {
@@ -70,16 +71,18 @@ myproc(void) {
 // If found, change state to EMBRYO and initialize
 // state required to run in the kernel.
 // Otherwise return 0.
-struct proc*
+static struct proc*
 allocproc(void)
 {
   struct proc *p;
   char *sp;
 
   acquire(&ptable.lock);
+
   for(p = ptable.proc; p < &ptable.proc[NPROC]; p++)
     if(p->state == UNUSED)
       goto found;
+
   release(&ptable.lock);
   return 0;
 
@@ -531,4 +534,28 @@ procdump(void)
     }
     cprintf("\n");
   }
+}
+
+int getprocs(int max, struct uproc *table) {
+  struct proc *p;
+  struct uproc *up;
+  int i = 0;
+
+  acquire(&ptable.lock);
+  for (p = ptable.proc; p < &ptable.proc[NPROC] && i < max; p++) {
+    if (p->state == UNUSED) {
+      continue;
+    }
+
+    up = &table[i];
+    up->pid = p->pid;
+    up->ppid = p->parent ? p->parent->pid : 0;
+    up->state = p->state;
+    up->sz = p->sz;
+    safestrcpy(up->name, p->name, sizeof(up->name));
+    i++;
+  }
+  release(&ptable.lock);
+
+  return i;
 }

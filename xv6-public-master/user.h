@@ -1,3 +1,5 @@
+#include "uproc.h"
+
 struct stat;
 struct rtcdate;
 
@@ -24,6 +26,7 @@ char* sbrk(int);
 int sleep(int);
 int uptime(void);
 int trace(int);
+int getprocs(int, struct uproc*);
 
 // ulib.c
 int stat(const char*, struct stat*);

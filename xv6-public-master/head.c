@@ -38,4 +38,3 @@ int main(int argc, char *argv[]) {
     close(fd);  // Close file before terminating program
     exit();
 }
-

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "mmu.h": "c",
+        "syscall.h": "c",
+        "user.h": "c"
+    }
+}

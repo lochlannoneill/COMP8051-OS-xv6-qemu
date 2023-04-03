@@ -11,4 +11,3 @@ int main() {
     printf(STDOUT, "Hello World!\n");
     exit();
 }
-
