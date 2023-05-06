@@ -31,12 +31,12 @@ The following files were modified:
 
 ***
 
-### Ubuntu terminal commands:
+### Ubuntu terminal commands to begin QEMU:
   1. make
   2. make qemu  
   ![terminal_make_qemu](https://github.com/lochlannoneill/COMP8051-OS-xv6-qemu/blob/main/screenshots/terminal_make_qemu.png?raw=true)
 
-### Qemu terminal commands:
+### Created qemu terminal commands:
   1. hello  
   ![terminal_hello](https://github.com/lochlannoneill/COMP8051-OS-xv6-qemu/blob/main/screenshots/terminal_hello.png?raw=true)
   
