@@ -5,7 +5,7 @@
 
 ### About:
 Showcasing the understanding of Operating System Engineering.  
-Using the [xv6 Open Source Operating System](https://github.com/mit-pdos/xv6-public).
+Using the [xv6 Open Source Operating System](https://github.com/mit-pdos/xv6-public) template.
 
 The following files were created: 
   1. [hello.c](https://github.com/lochlannoneill/COMP8051-OSEng-xv6-qemu/blob/main/xv6-public-master/hello.c)
